@@ -4,4 +4,10 @@ You need to compile Rust code, I guess. Like this:
 rustc main.rs
 ```
 
-It will create a `main` file in your project dir.
+It will create an executable `main` in your project dir. Execute like so:
+
+```
+./main
+```
+
+Magic
