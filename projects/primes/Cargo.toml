@@ -2,7 +2,7 @@
 name = "primes"
 version = "0.1.0"
 authors = ["Ollie Frost <oliver.frost@asos.com>"]
-edition = "2018"
+last_modified = "2020-11-30"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -1,4 +1,4 @@
-pub fn is_prime_loop(candidate: &str) -> bool {
+pub fn prime_loop(candidate: &str) -> bool {
 
     if candidate == "1" {
         return false;
@@ -10,11 +10,12 @@ pub fn is_prime_loop(candidate: &str) -> bool {
     for n in 2..upper_limit {
         if upper_limit % n == 0 {
             flag += 1;
+            println!("Lowest denominator: {}", n);
             break;
         }
     }
 
-    return flag == 0;
+    flag == 0
 
 }
 
@@ -26,5 +27,5 @@ pub fn is_multiple_of_3(candidate: &str) -> bool {
         sum += z;
     }
 
-    return sum % 3 == 0;
+    sum % 3 == 0
 }
